@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 9,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Items.COAL#0"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:Avaligraphene"
+    },
+    "name": "coal_graphene",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "12": "aeroponics-1",
+        "4": "",
+        "8": "aeroponics-3",
+        "9": "aeroponics-4"
+      },
+      "name": "default"
+    }
+  }
+}

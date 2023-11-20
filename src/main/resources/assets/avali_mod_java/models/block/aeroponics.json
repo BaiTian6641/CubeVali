@@ -1,0 +1,13 @@
+{
+  "parent": "avali_mod_java:custom/mcavali-aeroponics-1",
+  "textures": {
+    "all": "avali_mod_java:block/avaliaeroponics",
+    "particle": "avali_mod_java:block/avaliaeroponics",
+    "4": "avali_mod_java:block/aeroponics-1",
+    "5": "avali_mod_java:block/",
+    "6": "avali_mod_java:block/aeroponics-3",
+    "7": "avali_mod_java:block/aeroponics-4",
+    "8": "avali_mod_java:block/aeroponics-7"
+  },
+  "render_type": "translucent"
+}

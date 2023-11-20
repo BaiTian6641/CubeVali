@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "aerogelcapsule-1",
+        "2": "grow-1"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avali_mod_java:block/texture0_face3",
+    "up": "avali_mod_java:block/texture0_face3",
+    "north": "avali_mod_java:block/texture0_face0",
+    "east": "avali_mod_java:block/texture0_face1",
+    "south": "avali_mod_java:block/texture0_face0",
+    "west": "avali_mod_java:block/texture0_face2",
+    "particle": "avali_mod_java:block/texture0_face3"
+  },
+  "render_type": "solid"
+}

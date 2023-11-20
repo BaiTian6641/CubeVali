@@ -1,0 +1,9 @@
+{
+  "parent": "avali_mod_java:custom/testcube",
+  "textures": {
+    "all": "avali_mod_java:block/crystal",
+    "particle": "avali_mod_java:block/crystal",
+    "0": "avali_mod_java:block/crystal"
+  },
+  "render_type": "translucent"
+}

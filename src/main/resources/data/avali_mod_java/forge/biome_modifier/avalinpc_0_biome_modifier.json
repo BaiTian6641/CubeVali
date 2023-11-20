@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "ice_spikes",
+    "snowy_plains",
+    "taiga",
+    "snowy_slopes",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "avali_mod_java:avalinpc_0",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

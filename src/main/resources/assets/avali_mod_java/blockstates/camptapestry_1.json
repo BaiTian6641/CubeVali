@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "avali_mod_java:block/camptapestry_1"
+    },
+    "facing=east": {
+      "model": "avali_mod_java:block/camptapestry_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "avali_mod_java:block/camptapestry_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "avali_mod_java:block/camptapestry_1",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "avali_mod_java:block/camptapestry_1",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "avali_mod_java:block/camptapestry_1",
+      "x": 90
+    }
+  }
+}

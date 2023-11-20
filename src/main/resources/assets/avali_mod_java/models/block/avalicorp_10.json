@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "avali_mod_java:block/crop-11",
+    "particle": "avali_mod_java:block/crop-11"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "snowy_plains",
+    "taiga",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "features": "avali_mod_java:avali_tribe_0",
+  "step": "surface_structures"
+}

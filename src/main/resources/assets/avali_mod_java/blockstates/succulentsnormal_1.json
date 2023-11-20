@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "avali_mod_java:block/succulentsnormal_1"
+    },
+    "facing=east": {
+      "model": "avali_mod_java:block/succulentsnormal_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "avali_mod_java:block/succulentsnormal_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "avali_mod_java:block/succulentsnormal_1",
+      "y": 270
+    }
+  }
+}

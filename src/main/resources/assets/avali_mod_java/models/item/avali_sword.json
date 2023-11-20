@@ -1,0 +1,7 @@
+{
+  "parent": "avali_mod_java:custom/avalitier3shortsword",
+  "textures": {
+    "0": "avali_mod_java:block/avalitier3shortsword",
+    "particle": "avali_mod_java:item/avalitier3shortsword"
+  }
+}

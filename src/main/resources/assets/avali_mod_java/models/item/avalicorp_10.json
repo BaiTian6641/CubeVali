@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "avali_mod_java:item/avaliproduce1"
+  }
+}

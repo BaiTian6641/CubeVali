@@ -1,0 +1,28 @@
+{
+  "avali_hurt": {
+    "subtitle": "subtitles.avali_hurt",
+    "sounds": [
+      {
+        "name": "avali_mod_java:avalihurt",
+        "stream": false
+      }
+    ]
+  },
+  "chestopen0": {
+    "subtitle": "subtitles.chestopen0",
+    "sounds": [
+      {
+        "name": "avali_mod_java:barrel_open1",
+        "stream": false
+      }
+    ]
+  },
+  "chestclose": {
+    "sounds": [
+      {
+        "name": "avali_mod_java:barrel_close",
+        "stream": false
+      }
+    ]
+  }
+}

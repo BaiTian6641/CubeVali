@@ -1,0 +1,1070 @@
+{
+  "mod_elements": [
+    {
+      "name": "AvaliTribe0JieGouZaiCunDangShengChengShi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_tribe_0_jie_gou_zai_cun_dang_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AvaliTribe0JieGouZaiCunDangShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AvaliTribe0",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_tribe_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/world/features/AvaliTribe0Feature.java",
+          "src/main/resources/data/avali_mod_java/forge/biome_modifier/avali_tribe_0_biome_modifier.json",
+          "src/main/resources/data/avali_mod_java/worldgen/configured_feature/avali_tribe_0.json",
+          "src/main/resources/data/avali_mod_java/worldgen/placed_feature/avali_tribe_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Avalinpc0",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalinpc_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/entity/Avalinpc0Entity.java",
+          "src/main/java/net/mcreator/avalimodjava/client/renderer/Avalinpc0Renderer.java",
+          "src/main/resources/data/avali_mod_java/forge/biome_modifier/avalinpc_0_biome_modifier.json",
+          "src/main/resources/assets/avali_mod_java/models/item/avalinpc_0_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/client/gui/TradeScreen.java",
+          "src/main/java/net/mcreator/avalimodjava/world/inventory/TradeMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Aerogel",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/aerogel.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AerogelItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Avaligraphene",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaligraphene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avaligraphene.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvaligrapheneItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Avalitoken",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalitoken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avalitoken.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvalitokenItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Camptapestry1",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camptapestry_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/Camptapestry1Block.java",
+          "src/main/resources/assets/avali_mod_java/models/item/camptapestry_1.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/camptapestry_1.json",
+          "src/main/resources/assets/avali_mod_java/models/block/camptapestry_1.json"
+        ]
+      }
+    },
+    {
+      "name": "AerogelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerogel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/avali_mod_java/recipes/aerogel_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CoalGraphene",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_graphene",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/avali_mod_java/recipes/coal_graphene.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AvaliSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avali_sword.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvaliSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SwordCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/avali_mod_java/recipes/sword_craft.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/blockstates/test.json",
+          "src/main/resources/assets/avali_mod_java/models/item/test.json",
+          "src/main/resources/assets/avali_mod_java/models/block/test.json",
+          "src/main/java/net/mcreator/avalimodjava/block/TestBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AvaliChest0",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_chest_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/entity/AvaliChest0BlockEntity.java",
+          "src/main/java/net/mcreator/avalimodjava/block/AvaliChest0Block.java",
+          "src/main/resources/assets/avali_mod_java/blockstates/avali_chest_0.json",
+          "src/main/resources/assets/avali_mod_java/models/item/avali_chest_0.json",
+          "src/main/resources/assets/avali_mod_java/models/block/avali_chest_0.json"
+        ]
+      }
+    },
+    {
+      "name": "AvaliChest0GUI",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_chest_0_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/client/gui/AvaliChest0GUIScreen.java",
+          "src/main/java/net/mcreator/avalimodjava/world/inventory/AvaliChest0GUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "AvaliChest0Opensound",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_chest_0_opensound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AvaliChest0OpensoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AvaliChest0GUICloseSound",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_chest_0_gui_close_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AvaliChest0GUICloseSoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AvaliChest0DropChest",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_chest_0_drop_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AvaliChest0DropChestProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Aeroponics",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/entity/AeroponicsBlockEntity.java",
+          "src/main/resources/assets/avali_mod_java/models/item/aeroponics.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/aeroponics.json",
+          "src/main/java/net/mcreator/avalimodjava/block/AeroponicsBlock.java",
+          "src/main/resources/assets/avali_mod_java/models/block/aeroponics.json"
+        ]
+      }
+    },
+    {
+      "name": "AeroponicsTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AeroponicsTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AeroponicsLR",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_lr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/block/aeroponics_lr.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/aeroponics_lr.json",
+          "src/main/resources/assets/avali_mod_java/models/item/aeroponics_lr.json",
+          "src/main/java/net/mcreator/avalimodjava/block/AeroponicsLRBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AeroponicsSide",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_side",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/aeroponics_side.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/aeroponics_side.json",
+          "src/main/resources/assets/avali_mod_java/models/block/aeroponics_side.json",
+          "src/main/java/net/mcreator/avalimodjava/block/AeroponicsSideBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AeroponicsTreeTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_tree_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AeroponicsTreeTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AeroponicsSide2LR",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_side_2_lr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AeroponicsSide2LRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AerponicsLRSSIDE2Normal",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerponics_lrsside_2_normal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AerponicsLRSSIDE2NormalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AvaliGalss",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avali_galss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avali_galss.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/avali_galss.json",
+          "src/main/java/net/mcreator/avalimodjava/block/AvaliGalssBlock.java",
+          "src/main/resources/assets/avali_mod_java/models/block/avali_galss.json"
+        ]
+      }
+    },
+    {
+      "name": "Succulentsnormal1DetectGround",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succulentsnormal_1_detect_ground",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Succulentsnormal1DetectGroundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Succulents"
+    },
+    {
+      "name": "Succulents_n",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succulents_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Succulents_nProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Succulents"
+    },
+    {
+      "name": "Succulentsnormal1",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succulentsnormal_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/block/succulentsnormal_1.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Succulentsnormal1Block.java",
+          "src/main/resources/assets/avali_mod_java/models/item/succulentsnormal_1.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/succulentsnormal_1.json"
+        ]
+      },
+      "path": "~/Succulents"
+    },
+    {
+      "name": "Succulentsnormal2",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succulentsnormal_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/block/succulentsnormal_2.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Succulentsnormal2Block.java",
+          "src/main/resources/assets/avali_mod_java/models/item/succulentsnormal_2.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/succulentsnormal_2.json"
+        ]
+      },
+      "path": "~/Succulents"
+    },
+    {
+      "name": "Succulentsnormal3",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "succulentsnormal_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/succulentsnormal_3.json",
+          "src/main/resources/assets/avali_mod_java/models/block/succulentsnormal_3.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/succulentsnormal_3.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Succulentsnormal3Block.java"
+        ]
+      },
+      "path": "~/Succulents"
+    },
+    {
+      "name": "Avalicorp10Growth",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_10_growth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Avalicorp10GrowthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp1Bonemeal",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_1_bonemeal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Avalicorp1BonemealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "AeroponicsLR2Side",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aeroponics_lr_2_side",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/AeroponicsLR2SideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Avaliflour",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avaliflour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avaliflour.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvaliflourItem.java"
+        ]
+      },
+      "path": "~/Items/foods"
+    },
+    {
+      "name": "Avalimeat",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalimeat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/item/AvalimeatItem.java",
+          "src/main/resources/assets/avali_mod_java/models/item/avalimeat.json"
+        ]
+      },
+      "path": "~/Items/foods"
+    },
+    {
+      "name": "Avalinoodle",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalinoodle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avalinoodle.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvalinoodleItem.java"
+        ]
+      },
+      "path": "~/Items/foods"
+    },
+    {
+      "name": "Avalinoodle2",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalinoodle_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/item/Avalinoodle2Item.java",
+          "src/main/resources/assets/avali_mod_java/models/item/avalinoodle_2.json"
+        ]
+      },
+      "path": "~/Items/foods"
+    },
+    {
+      "name": "Avalitaco",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalitaco",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/models/item/avalitaco.json",
+          "src/main/java/net/mcreator/avalimodjava/item/AvalitacoItem.java"
+        ]
+      },
+      "path": "~/Items/foods"
+    },
+    {
+      "name": "Avalicorp10Grow",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_10_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Avalicorp10GrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp1TickGrow",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_1_tick_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Avalicorp1TickGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp10",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/entity/Avalicorp10BlockEntity.java",
+          "src/main/resources/assets/avali_mod_java/models/block/avalicorp_10.json",
+          "src/main/resources/assets/avali_mod_java/models/item/avalicorp_10.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/avalicorp_10.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Avalicorp10Block.java"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp11",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/Avalicorp11Block.java",
+          "src/main/resources/assets/avali_mod_java/blockstates/avalicorp_11.json",
+          "src/main/resources/assets/avali_mod_java/models/block/avalicorp_11.json",
+          "src/main/resources/assets/avali_mod_java/models/item/avalicorp_11.json",
+          "src/main/java/net/mcreator/avalimodjava/block/entity/Avalicorp11BlockEntity.java"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp12",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/block/entity/Avalicorp12BlockEntity.java",
+          "src/main/resources/assets/avali_mod_java/models/item/avalicorp_12.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Avalicorp12Block.java",
+          "src/main/resources/assets/avali_mod_java/models/block/avalicorp_12.json",
+          "src/main/resources/assets/avali_mod_java/blockstates/avalicorp_12.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp13",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/avali_mod_java/blockstates/avalicorp_13.json",
+          "src/main/java/net/mcreator/avalimodjava/block/entity/Avalicorp13BlockEntity.java",
+          "src/main/resources/assets/avali_mod_java/models/item/avalicorp_13.json",
+          "src/main/resources/assets/avali_mod_java/models/block/avalicorp_13.json",
+          "src/main/java/net/mcreator/avalimodjava/block/Avalicorp13Block.java"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Avalicorp10DetectBlock",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalicorp_10_detect_block",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/avalimodjava/procedures/Avalicorp10DetectBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "avali_hurt",
+      "files": [
+        "avalihurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Avali: Hurt"
+    },
+    {
+      "name": "chestopen0",
+      "files": [
+        "barrel_open1"
+      ],
+      "category": "neutral",
+      "subtitle": "Avali Chest: Open"
+    },
+    {
+      "name": "chestclose",
+      "files": [
+        "barrel_close"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.avali_mod_java.avali_chest_0": "Avali Chest 0",
+      "item.avali_mod_java.avalinoodle_2": "Avalinoodle 2",
+      "item.avali_mod_java.avaliflour": "Avali flour",
+      "item.avali_mod_java.avalinoodle": "Piru Noodle",
+      "subtitles.avali_hurt": "Avali: Hurt",
+      "item.avali_mod_java.avaligraphene": "Avaligraphene",
+      "entity.avali_mod_java.avalinpc_0": "Avalinpc_0",
+      "subtitles.chestclose": "",
+      "block.avali_mod_java.avalicorp_10": "Avalicorp 1 0",
+      "block.avali_mod_java.avalicorp_12": "Avalicorp 1 2",
+      "block.avali_mod_java.avalicorp_11": "Avalicorp 1 1",
+      "block.avali_mod_java.avali_galss": "Avali Galss",
+      "block.avali_mod_java.avalicorp_13": "Avalicorp 1 3",
+      "item.avali_mod_java.avalimeat": "Spicy Jerky",
+      "block.avali_mod_java.test": "Test",
+      "block.avali_mod_java.succulentsnormal_1": "Succulents",
+      "block.avali_mod_java.succulentsnormal_2": "Succulentsnormal 2",
+      "block.avali_mod_java.succulentsnormal_3": "Succulentsnormal 3",
+      "gui.avali_mod_java.trade.label_trade": "Trade",
+      "block.avali_mod_java.aeroponics_side": "AeroponicsSide",
+      "item.avali_mod_java.avalitoken": "Avalitoken",
+      "block.avali_mod_java.aeroponics_lr": "Aeroponics LR",
+      "item.avali_mod_java.aerogel": "Aerogel",
+      "item.avali_mod_java.avalitaco": "Avali taco",
+      "item.avali_mod_java.avalinpc_0_spawn_egg": "Avalinpc_0 Spawn Egg",
+      "block.avali_mod_java.aeroponics": "Aeroponics",
+      "block.avali_mod_java.camptapestry_1": "Camptapestry 1",
+      "item.avali_mod_java.avali_sword": "Avali Sword",
+      "subtitles.chestopen0": "Avali Chest: Open"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "foods",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Succulents",
+        "children": []
+      },
+      {
+        "name": "plants",
+        "children": []
+      },
+      {
+        "name": "Craft",
+        "children": [
+          {
+            "name": "Foods",
+            "children": []
+          },
+          {
+            "name": "items",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "avali_mod_java",
+    "modName": "Avali_Mod_Java",
+    "version": "1.0.0",
+    "author": "weyst, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.avalimodjava",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "avali_mod_java:block/aeroponics_lr"
+    },
+    "facing=east": {
+      "model": "avali_mod_java:block/aeroponics_lr",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "avali_mod_java:block/aeroponics_lr",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "avali_mod_java:block/aeroponics_lr",
+      "y": 270
+    }
+  }
+}

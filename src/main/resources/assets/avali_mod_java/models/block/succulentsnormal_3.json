@@ -1,0 +1,10 @@
+{
+  "parent": "avali_mod_java:custom/mcavali-succulents-7",
+  "textures": {
+    "all": "avali_mod_java:block/aerogelcapsule-1",
+    "particle": "avali_mod_java:block/aerogelcapsule-1",
+    "0": "avali_mod_java:block/aerogelcapsule-1",
+    "2": "avali_mod_java:block/grow-1"
+  },
+  "render_type": "translucent"
+}

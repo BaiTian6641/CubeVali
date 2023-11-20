@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "avali_mod_java:item/avaligraphene"
+  }
+}
